@@ -1,4 +1,4 @@
-package JavaCodes.Multithreading;
+package JavaCodes.Multithreading.B_ThroughThreadClass;
 
 class Cooking extends Thread {
     public void run() {

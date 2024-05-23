@@ -1,8 +1,9 @@
-package JavaCodes.Multithreading;
+package JavaCodes.Multithreading.B_ThroughThreadClass;
 
 import static JavaCodes.A_starting_java.I_Print_Prime_In_Range.checkPrime;
 
 class PrintOdd extends Thread {
+    @Override
     public void run() {
         for (int i = 1; i <= 100; i++) {
             if (i % 2 != 0) {
@@ -13,6 +14,7 @@ class PrintOdd extends Thread {
 }
 
 class PrintPrime extends Thread {
+    @Override
     public void run() {
         for (int i = 1; i <= 100; i++) {
             if (checkPrime(i)) {
@@ -24,6 +26,7 @@ class PrintPrime extends Thread {
 }
 
 class PrintEven extends Thread {
+    @Override
     public void run() {
         for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
@@ -33,7 +36,7 @@ class PrintEven extends Thread {
     }
 }
 
-public class Main_Multithreading {
+public class Main {
     public static void main(String[] args) {
         PrintPrime obj1 = new PrintPrime();
         PrintEven obj2 = new PrintEven();
