@@ -1,4 +1,4 @@
-package JavaCodes.Multithreading.F_Thread_Priorities;
+package JavaCodes.Multithreading.D_Thread_Methods.B_Thread_Priorities;
 
 class test extends Thread{
 public void run(){

@@ -1,4 +1,4 @@
-package JavaCodes.Multithreading.D_Thread_Methods;
+package JavaCodes.Multithreading.D_Thread_Methods.A_Thread_Naming;
 
 class thread1 extends Thread{
     public void run(){
