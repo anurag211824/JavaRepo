@@ -7,12 +7,13 @@ public abstract class Parent {
         this.age = age;
         VALUE = 32456789;
     }
-    static void hello(){
+    void hello(){
         System.out.println("hey");
     }
     void normal() {
         System.out.println("this is a normal method");
     }
+    //abstract methods
     abstract void career();
     abstract  void partner();
 

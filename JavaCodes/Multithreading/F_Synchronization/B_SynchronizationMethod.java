@@ -29,7 +29,8 @@ public class B_SynchronizationMethod {
         printTables p = new printTables();
         TableThread t1 = new TableThread(p, 5);
         t1.start();
-        TableThread t2 = new TableThread(p, 10);
+        TableThread t2 = new TableThread(p, 10
+        );
         t2.start();
 
     }
