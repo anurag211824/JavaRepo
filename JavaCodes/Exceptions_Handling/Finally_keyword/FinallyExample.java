@@ -6,7 +6,7 @@ public class FinallyExample {
             // Open a resource (in this case, a file)
             System.out.println("Opening a resource...");
             // Simulating an exception by dividing by zero
-            int result = 10 / 0;
+            int result = 10 / 3;
             System.out.println("Result: " + result); // This line won't be executed
         } catch (ArithmeticException e) {
             // Handling arithmetic exception

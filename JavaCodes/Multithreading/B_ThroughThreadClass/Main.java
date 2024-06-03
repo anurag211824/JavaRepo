@@ -1,7 +1,5 @@
 package JavaCodes.Multithreading.B_ThroughThreadClass;
-
 import static JavaCodes.A_starting_java.I_Print_Prime_In_Range.checkPrime;
-
 class PrintOdd extends Thread {
     @Override
     public void run() {
@@ -12,10 +10,9 @@ class PrintOdd extends Thread {
         }
     }
 }
-
 class PrintPrime extends Thread {
     @Override
-    public void run() {
+    public void run(){
         for (int i = 1; i <= 100; i++) {
             if (checkPrime(i)) {
                 System.out.println("Prime:" + i);

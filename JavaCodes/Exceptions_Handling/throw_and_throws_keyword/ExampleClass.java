@@ -14,8 +14,8 @@ public class ExampleClass {
     }
     public static void exampleMethod() throws ArithmeticException {
         try {
-            // Code that might throw an exception
-            //int result = 10 / 0; // Example: division by zero
+            //Code that might throw an exception
+            int result = 10 / 0; // Example: division by zero
         } catch (ArithmeticException e) {
             // Handle the specific exception (if needed)
             throw e; // Rethrow the exception to the caller

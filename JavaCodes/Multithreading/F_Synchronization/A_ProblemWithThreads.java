@@ -3,7 +3,7 @@ package JavaCodes.Multithreading.F_Synchronization;
 class BookTheaterSeats {
     int total_seats = 10;
 
-    synchronized void bookSeats(int seats) {
+    void bookSeats(int seats) {
         if (total_seats >= seats) {
             System.out.println("seats booked successfully");
             total_seats = total_seats - seats;
